@@ -35,6 +35,7 @@ goto :choice2
 :choice2
 REM Stop harcoding paths! Just tell users to add Minecraft.exe to the MineOffline folder :P
 REM This isn't needed :P cd "%USERPROFILE%\Desktop"
+REM Methos319: We assume the user has no clue how to use a computer, that was who our audience was.
 echo.
 echo For this to work, you will need Java in your PATH variable. Most likely it is.
 echo To start the Offline Mode Launcher, you'll need a username.
